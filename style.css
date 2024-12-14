@@ -1,0 +1,236 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2419F30F;
+    margin-top: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgb(179, 179, 179) ;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333;
+    font-family: DotGothic16;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-family: "Archivo";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px 0;
+    margin-bottom: 70px;
+    width: Fill (1,344px)px;
+    height: Hug (1,160px)px;
+    padding: 96px 0px 96px 0px;
+    gap: 56px;
+    border: 2px;
+}
+
+.hero-content {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    text-align: center;
+    font-size: 120px;
+    line-height: 120px;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero-image img {
+    width: 1344px;
+    height: 810px;
+    border-radius: 56px;
+    border: 2px;
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+    padding: 0px 30px;
+}
+.art-deco-portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding: 40px;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left;
+    font-family: "Newsreader", serif;
+    font-weight: normal;
+}
+
+.portfolio-item p {
+    font-size: 17px;
+    margin-top: 5px;
+    color: #a8a8a8;
+    text-align: left;
+    font-family: "Roboto", serif;
+    font-style: normal;
+}
+.intro {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+
+.cont3{
+    padding: 0px 5%;
+}
+.cont3 p{
+    text-align: center;
+    font-family: DotGothic16;
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 50%;
+    
+}
+.contact{
+    font-size: 40px;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.otp {
+    color: #AD7C00;
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0 2px;
+}
+.submit{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #AD7C00;
+    color: #FAFFFE;
+    padding: 5px 120px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.skip{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #AD7C00;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: white;
+}
+footer{
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.follow{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.cont6{
+    font-family: Archivo;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    display: flex;
+    justify-content: end;
+    width: 95%;
+}
+.cont6 p{
+    width: 50%;
+}
+footer p{
+    font-family: DotGothic16;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
